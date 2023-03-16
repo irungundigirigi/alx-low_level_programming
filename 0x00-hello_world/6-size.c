@@ -1,8 +1,9 @@
 #include <stdio.h>
 
 /**
- * Description: prints the size of different C datatypes
  * main: Entry point
+ *
+ * Description: Prints the size of different data types
  * Return: Always success 0
  */
 int main(void)
