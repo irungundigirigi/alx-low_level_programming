@@ -1,9 +1,9 @@
 #include <stdio.h>
 
 /*
- * main - programs entry-point
- * return value - 0 for success / any non-zero value means an error occured.
- * Description: The program prints arguments passed printf to the standard output.
+ * main: programs entry-point
+ * return value: 0 for success / non-zero value means error.
+ * Description: The program prints arguments passed printf to standard output.
  */
 int main(void)
 {
