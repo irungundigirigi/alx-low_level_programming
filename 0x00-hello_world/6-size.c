@@ -6,6 +6,7 @@
  * Description: Prints the size of different data types
  * Return: Always success 0
  */
+
 int main(void)
 {
 	printf("Size of a char: %d bytes(s) \n", sizeof(char));
