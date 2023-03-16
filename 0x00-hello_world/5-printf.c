@@ -2,7 +2,7 @@
 
 /*
  * main: programs entry-point
- * return value: 0 for success / non-zero value means error.
+ * Return: 0 for success / non-zero value means error.
  * Description: The program prints arguments passed printf to standard output.
  */
 int main(void)
