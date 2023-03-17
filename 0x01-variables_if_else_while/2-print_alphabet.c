@@ -12,10 +12,12 @@
 int main(void)
 {	int x;
 
-	for ( x = 'A'; x <= 'Z'; x++)
+	for (x = 'A'; x <= 'Z'; x++)
 	{
 		int lowerCase_x = tolower(x);
+
 		putchar(lowerCase_x);
+
 	}
 	putchar('\n');
 	return (0);
