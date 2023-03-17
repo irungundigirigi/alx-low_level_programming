@@ -19,10 +19,10 @@ int main(void)
 	srand(time(0));
 	n = rand() - RAND_MAX / 2;
 	mod_n = n % 10;
-	
+
 	if (mod_n > 5)
 
-		printf("Last digital of %d is %d and is greater than 5\n", n, mod_n);
+		printf("Last digit of %d is %d and is greater than 5\n", n, mod_n);
 
 	else if ((mod_n < 6) && (mod_n != 0))
 
