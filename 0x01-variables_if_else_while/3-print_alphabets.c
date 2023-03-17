@@ -19,7 +19,6 @@ int main(void)
 		int lowerCase_x = tolower(x);
 
 		putchar(lowerCase_x);
-	
 	}
 	for (x = 'A'; x <= 'Z'; x++)
 	{
