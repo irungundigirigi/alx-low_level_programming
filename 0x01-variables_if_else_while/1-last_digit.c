@@ -22,14 +22,14 @@ int main(void)
 	
 	if (mod_n > 5)
 
-		printf("The last digital of %d is %d and is greater than 5\n",n, mod_n);
+		printf("Last digital of %d is %d and is greater than 5\n", n, mod_n);
 
 	else if ((mod_n < 6) && (mod_n != 0))
 
-		printf("Last digit of %d is %d and is less than 6 and not 0\n",n,mod_n);
+		printf("Last digit of %d is %d and is less than 6 and not 0\n", n, mod_n);
 	else
 
-		printf("The last digit of %d is %d and is 0\n",n, mod_n);
+		printf("Last digit of %d is %d and is 0\n", n, mod_n);
 
 	return (0);
 }
