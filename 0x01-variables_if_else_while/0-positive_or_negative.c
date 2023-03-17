@@ -1,9 +1,15 @@
 #include <stdlib.h>
 #include <stdio.h>
 #include <time.h>
-/* more headers goes there */
 
-/* betty style doc for function main goes there */
+
+/**
+ * main: Entry point
+ * Description: This program will assign a random number to the variable
+ * n * each time it is executed.
+ * Return: Always success 
+ */
+
 int main(void)
 {
 	int n;
@@ -14,13 +20,12 @@ int main(void)
 	if(n > 0)
 	{
 		printf("%d is positive", n);
+
 	}else if(n < 0)
        	{
 		printf("%d is negative", n);
-	}else
-       	{
+	}else{
 		printf("%d is zero", n);
 	}
-
 	return (0);
 }
