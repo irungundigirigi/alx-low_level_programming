@@ -30,7 +30,7 @@ int main(void)
 	else
 
 		printf("The last digit of %d is %d and is 0\n",n, mod_n);
-	}
+
 	return (0);
 }
 
