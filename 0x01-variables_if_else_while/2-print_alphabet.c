@@ -1,4 +1,5 @@
 #include <stdio.h>
+#include <ctype.h>
 
 
 /**
@@ -13,8 +14,8 @@ int main(void)
 	for (int x = 'A'; x <= 'Z'; x++)
 	{
 		int lowerCase_x = tolower(x);
-		putChar(lowerCase_x);
-		putChar('\n');
+		putchar(lowerCase_x);
+		putchar('\n');
 
 	return (0);
 }
