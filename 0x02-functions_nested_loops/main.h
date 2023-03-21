@@ -1,13 +1,13 @@
-#include <unistd.h>
+#ifndef HEADER_FILE
+#define HEADER_FILE
 
 /**
- * _putchar - writes the character c to stdout
- * @c: The character to print
- *
- * Return: On success 1.
- * On error, -1 is returned, and errno is set appropriately.
+ * File : Main.h
+ * 
+ * Desc: Contains declarations for all functions used in directory 0x02-functions
+ * _nested_loops
  */
-int _putchar(char c)
-{
-	return (write(1, &c, 1));
-}
+
+int _putchar(char c);
+
+#endif
