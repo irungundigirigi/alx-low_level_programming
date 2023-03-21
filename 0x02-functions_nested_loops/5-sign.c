@@ -2,11 +2,11 @@
 
 /**
   * print_sign(int n) - Prints the sign of a number
-  * int n - parameter passed to function
+  * int n: parameter passed to function
   *
   * Return: 1 if n is greater than zero / 0 if zero / -1 if less than 0
   */
-int print_sign(int n)
+int print_sign (int n)
 {
 	if (n > 0)
 	{
