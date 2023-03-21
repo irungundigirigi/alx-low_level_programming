@@ -7,19 +7,10 @@
  */
 int main(void)
 {
-	int j = i + 1;
-	int i = 0;
-
 	for (i = 0; i < 9; i++)
-	{	
-		while(j < 10)
-		{	
+	{	for(j = i + 1; j < 9; j++ )
 			putchar('0' + i);
 			putchar('0' + j);
-			putchar(',');
-			putchar(' ');
-			j++;
-		}	
 	}	
 	putchar('\n');
 
