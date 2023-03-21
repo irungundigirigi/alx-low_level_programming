@@ -1,11 +1,11 @@
 #include "main.h"
 
 /**
- * print_alphabet
+ * print_alphabet - function name
  *
  * Description: print all the alphabets lowercase followed by new line.
  *
- * Return: Always 0.
+ * Return: void/no return value
  */
 void print_alphabet(void)
 {
