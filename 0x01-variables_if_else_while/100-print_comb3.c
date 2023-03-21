@@ -7,8 +7,7 @@
  */
 int main(void)
 {	
-	int i;
-	int j;
+	int i,j;
 
 	for (i = 0; i < 9; i++)
 	{
@@ -16,7 +15,7 @@ int main(void)
 		{
 			putchar('0' + i);
 			putchar('0' + j);
-		{
+		}
 	}	
 	putchar('\n');
 
