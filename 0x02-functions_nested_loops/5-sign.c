@@ -3,7 +3,7 @@
 /**
   * print_sign - Function name
   * Description: Prints the sign of a number.
-  * int n: parameter passed to the function for checking.
+  * @n: parameter passed to the function for checking.
   * Return: 1 if n is greater than zero / 0 if zero / -1 if less than 0
   */
 int print_sign(int n)
