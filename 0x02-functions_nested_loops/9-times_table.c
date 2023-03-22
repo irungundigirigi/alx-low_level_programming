@@ -7,7 +7,7 @@
   * Return: No return
   */
 void times_table(void)
-{	
+{
 	int num, x, prod;
 
 	for (num =0; num <= 9; num++)
@@ -32,6 +32,6 @@ void times_table(void)
 		}
 	_putchar('\n');	
 
-	}	
+	}
 }
 
