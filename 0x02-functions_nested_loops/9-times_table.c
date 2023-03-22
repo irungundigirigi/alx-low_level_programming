@@ -4,13 +4,13 @@
   * times_table - Function
   * Description: Prints the 9 times table.
   * @void: no parameters
-  * Return: 1 if n is greater than zero / 0 if zero / -1 if less than 0
+  * Return: No return
   */
 int times_table(void)
 {	
 	int num, x, prod;
 
-	for(num =0; num <= 9; num++)
+	for (num =0; num <= 9; num++)
 	{
 		_putchar('0');
 
