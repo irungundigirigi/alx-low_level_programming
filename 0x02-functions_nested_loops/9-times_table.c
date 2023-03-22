@@ -6,7 +6,7 @@
   * @void: no parameters
   * Return: No return
   */
-int times_table(void)
+void times_table(void)
 {	
 	int num, x, prod;
 
