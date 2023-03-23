@@ -1,15 +1,14 @@
 #include "main.h"
 
 /**
- * _isupper - function name
- * Description: Checks if the letter passed as argument is uppercase.
- * @c: character passed as argument
+ * _isupper - Checks if the letter passed as argument is uppercase.
+ * @c:number to the checked
  * Return: 1 if uppercase and 0 if lowercase
  */
-
+ 
 int _isupper(int c) 
-{	char letter = c + '0';
-	if (letter >= 65 && letter <= 90)
+{	
+	if (c >= 65 && c <= 90)
 		return (1);
 	else
 		return (0);
