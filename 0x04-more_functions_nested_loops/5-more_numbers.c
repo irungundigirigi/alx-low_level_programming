@@ -1,19 +1,20 @@
 #include "main.h"
 
 /**
- * mul - prints 10 times the numbers, from 0 to 14, followed by a new line
+ * mul - function name
+ * Description: prints 10 times the numbers, from 0 to 14, followed by a new line
  * Return: return the a * b
  */
 
 
 void more_numbers(void)
-{	
+{
 	int i;
 
 	for (i = 0; i <= 14; i++)
-	{	
+	{
 		if (i < 10)
-		{	
+		{
 			break;
 		}
 		else
@@ -23,5 +24,5 @@ void more_numbers(void)
 
 		_putchar('\n');
 
-	}	
+	}
 }
