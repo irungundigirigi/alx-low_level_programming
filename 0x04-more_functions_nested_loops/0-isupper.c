@@ -3,6 +3,7 @@
 /**
  * _isupper - function name
  * Description: Checks if the letter passed as argument is uppercase.
+ * @c: character passed as argument
  * Return: 1 if uppercase and 0 if lowercase
  */
 
