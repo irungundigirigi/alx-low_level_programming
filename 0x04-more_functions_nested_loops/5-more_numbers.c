@@ -1,8 +1,9 @@
 #include "main.h"
 
 /**
- * mul - function name
- * Description: prints 10 times the numbers, from 0 to 14, followed by a new line
+ * more_numbers - function name
+ * Description: prints 10 times the numbers, from 0 to 14,
+ * followed by a new line
  * Return: return the a * b
  */
 
