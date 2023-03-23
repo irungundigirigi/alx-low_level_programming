@@ -1,22 +1,29 @@
 #include "main.h"
 
-/*
- *print_square - function name
- *Description: prints a square, followed by a new line. */
-
+/**
+ * print_square - print a square
+ * @size: parameter size of square
+ * Description: Use '#' to print square.
+ */
 void print_square(int size)
 {
-	while (size > 1)
+	int x, y;
+
+	y = 0;
+
+	if (size < 1)
+		_putchar('\n');
+
+	while (y < size)
 	{
-		for (int j = 0; j <= size; j++)
+		x = 0;
+		while (x < size)
+		{
 			_putchar('#');
-
+			x++;
+		}
 		_putchar('\n');
-
-		size--;
-		
+		y++;
 	}
-	if (size <= 0)
-		_putchar('\n');
 }
 
