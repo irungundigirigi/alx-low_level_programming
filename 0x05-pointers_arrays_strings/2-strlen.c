@@ -3,7 +3,7 @@
 /**
  * _strlen - Find length of string. Iterates over the characters from i = 0
  * until '\0' null character is encountered
- * s: takes a string argument
+ * @s: takes a char argument
  * Return: length of string
  */
 
