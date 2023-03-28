@@ -9,7 +9,7 @@ void rev_string(char *s)
 {	
 	int i, z, c ;
 	char h;
-	//loop over string first to get the size
+	
 	
 	for (i =0; s[i] != '\0'; i ++)
 		;
