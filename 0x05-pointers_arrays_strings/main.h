@@ -13,5 +13,5 @@ int _putchar(char c);
 void print_rev(char *s);
 void print_rev(char *s);
 void puts_half(char *str);
-
+char *_strcpy(char *dest, char *srcy)
 #endif
