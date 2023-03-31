@@ -1,18 +1,19 @@
 #include "main.h"
 
 /**
- * rot13(char *) - encodes a string using rot13
- * @s - string to be encoded
+ * rot13 - encodes a string using rot13
+ * @s: string to be encoded
+ * Return: encoded string
  */
 
 
 char *rot13(char *s)
 {
 	int i;
-	
+
 	for (i = 0; s[i] != '\0'; i++)
-	{		
-		/* check if alphabet via ASCII range */	
+	{
+		/* check if alphabet via ASCII range */
 		if ((s[i] >= 97 && s[i] <= 122) || (s[i] > 65 && s[i] <= 90))
 		{
 			if ((s[i] > 109 && s[i] < 123) || (s[i] > 77 && s[i] < 91))
@@ -20,8 +21,8 @@ char *rot13(char *s)
 			else
 				s[i] += 13;
 		}
-	
+
 	}
-	
+
 	return (s);
-}	
+}
