@@ -15,7 +15,7 @@ char *cap_string(char *s)
 		s[i] = s[i] - 'a' + 'A';
 	i++;
 
-	while (s[i] = '\0') /* Iterate through the string passed */
+	while (s[i] != '\0') /* Iterate through the string passed */
 	{
 		/* checks for lowercase letter && prior char is separator,then capitalise */
 		if ((s[i] >= 'a' && s[i] <= 'z')
@@ -24,9 +24,10 @@ char *cap_string(char *s)
 			s[i - 1] == '(' || s[i - 1] == ')' || s[i - 1] == '{' ||
 			s[i - 1] == '}' || s[i - 1] == ' ' || s[i - 1] == '\t'
 			|| s[i - 1] == '\n'))
+		    
 			s[i] = s[i] - 'a' + 'A';
 		i++;
-
+		
 	}
 	return (s);
 }
