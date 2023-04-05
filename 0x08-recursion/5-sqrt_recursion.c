@@ -9,7 +9,7 @@
 
 int find_root(int n, int r)
 {
-	if (r > n / 2)
+	if (r * r > n)
 		return (-1);
 	if (r * r == n)
 		return (r);
