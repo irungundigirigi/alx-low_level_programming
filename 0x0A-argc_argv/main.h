@@ -1,7 +1,7 @@
 #ifndef HEADER_FILE
 #define HEADER_FILE
 
-int main(int argc, int argv[]);
+int _putchar(char c);
 
 #endif
 
