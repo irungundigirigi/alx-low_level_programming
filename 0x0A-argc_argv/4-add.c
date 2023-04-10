@@ -3,8 +3,8 @@
 #include <stdbool.h>
 
 /**
- * Check if all argv are numbers
- * @argV: argv
+ * is_num - Check if all argv are numbers
+ * @c: character to be checked.
  * Return: Return true if all argv are numbers/ false if not
  */
 
@@ -28,7 +28,6 @@ bool is_num(char *c)
  * @argc: argument counter
  * @argv: argument vector
  * Return: 0 on success/
- *
  */
 
 int main(int argc, char *argv[])
@@ -41,7 +40,7 @@ int main(int argc, char *argv[])
 		printf("0\n");
 		return (0);
 	}
-	
+
 
 	while (i < argc)
 	{
@@ -55,12 +54,9 @@ int main(int argc, char *argv[])
 			return (1);
 		}
 		i++;
-			
+
 	}
 	printf("%d\n", sum);
 
 	return (0);
-
-
 }
-
