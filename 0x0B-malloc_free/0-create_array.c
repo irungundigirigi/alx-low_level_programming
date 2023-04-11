@@ -3,7 +3,7 @@
 #include "main.h"
 
 /**
- * Create an array of chars & initialize it
+ * create_array - Create an array of chars & initialize it
  * @size: size of array
  * @c: fill array with c
  * Return: pointer to array
