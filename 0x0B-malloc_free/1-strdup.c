@@ -13,15 +13,15 @@ char *_strdup(char *str)
 
 	if (str == NULL)
 		return (NULL);
-	
+
 	/* find length of str, held in int i */
 	for (i = 0; str[i] != '\0'; i++)
 		;
 
-	a = malloc(i * sizeof(*a) + 1);
+	*dup = malloc(i * sizeof(*a) + 1);
 
 	/* validate memory */
-	if (a == NULL)
+	if (dup == NULL)
 		return (NULL);
 
 	for (j = 0; j < i; j++)
