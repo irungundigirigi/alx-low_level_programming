@@ -28,15 +28,16 @@ char *string_nconcat(char *s1, char *s2, unsigned int n)
 
 	for (i = 0; i < length1; i++)
 		*(p + i) = s1[i];
-	
+
 	j = 0;
 
-	while ( i < (length1 + n)
-		*(p + i) = s2[j];
+	while (i < (length1 + n)
+		* (p + i) = s2[j];
 		j++;
 }
 
-/** _strlen - find length of string
+/**
+ * _strlen - find length of string
  * @s: string
  * Return: length of string
  */
@@ -48,5 +49,5 @@ int _strlen(char *s)
 	for (i = 0; s[i] != '\0'; i++)
 		;
 
-	return(i);
+	return (i);
 }
