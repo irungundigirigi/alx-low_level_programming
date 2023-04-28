@@ -1,6 +1,7 @@
 #include <stdio.h>
 
-void __attribute__((constructor)) print(vooid);
+void __attribute__((constructor)) print(void);
+
 
 /**
  * print - prints statement before the main function is run.
