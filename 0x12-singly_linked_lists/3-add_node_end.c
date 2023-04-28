@@ -1,17 +1,17 @@
 #include "lists.h"
 
 /**
- * _strlen - find string length
+ * _strlen - find the length of a string
  * @str: string
  * Return: length
  */
-int _strlen(const char *str)
+int strlen(const char *str)
 {
-	int len;
+	int i;
 
-	for (len = 0; str[len] != '\0'; len++)
+	for (i = 0; str[i] != '\0'; i++)
 		;
-	return (len);
+	return (i);
 }
 
 /**
@@ -22,30 +22,31 @@ int _strlen(const char *str)
  */
 list_t *add_node_end(list_t **head, const char *str)
 {
-	list_t *new_node, *tmp; /* create new node */
+	list_t *new_node, *t; 
 
-	if (str == NULL) /* validate input */
+
+	if (str == NULL) 
 		return (NULL);
-	if (strdup(str) == NULL) /* check if malloc errored */
+	if (strdup(str) == NULL) 
 		return (NULL);
 
-	new_node = malloc(sizeof(list_t)); /* malloc for new node */
+	new_node = malloc(sizeof(list_t)); 
 	if (new_node == NULL)
 		return (NULL);
 
-	new_node->str = strdup(str); /* set node values */
-	new_node->len = _strlen(str);
+	new_node->str = strdup(str); 
+	new_node->len = strlen(str);
 	new_node->next = NULL;
 
-	if (*head == NULL) /* if no list nodes, set new_node to beginning */
+	if (*head == NULL) 
 		*head = new_node;
 	else
 	{
-		tmp = *head;
+		t = *head;
 
-		while (tmp->next != NULL)
-			tmp = tmp->next;
-		tmp->next = new_node;
+		while (t->next != NULL)
+			t = t->next;
+		t->next = new_node;
 	}
 
 	return (new_node);
