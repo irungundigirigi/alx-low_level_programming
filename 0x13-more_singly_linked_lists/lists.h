@@ -6,10 +6,12 @@
 #include <stdio.h>
 
 
-/*
- * listint_s - singly linked list
+/**
+ * struct listint_s - singly linked list
  * @n: integer data
  * @next: pointer to next node
+ *
+ * Description: initialises a data struct to be used for the project.
  */
 
 typedef struct listint_s
