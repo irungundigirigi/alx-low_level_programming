@@ -25,12 +25,12 @@ int main(int ac, char *av[])
 	if (fd_input == -1)
 		dprintf(SE, "Error: Can't read from file %s\n", av[1]), exit(98);
 
-    /* open the destination file (file_to) for writing  */    
+    /* open the destination file (file_to) for writing  */
 	fd_output = open(av[2], O_CREAT | O_WRONLY | O_TRUNC, mode);
 	if (fd_output == -1)
 		dprintf(SE, "Error: Can't write to %s\n", av[2]), exit(99);
 	do {
-        /* reads data from the source file in chunks of size MAXSIZE */
+	/* reads data from the source file in chunks of size MAXSIZE */
 		i_state = read(fd_input, buf, MAXSIZE);
 		if (i_state == -1)
 		{
