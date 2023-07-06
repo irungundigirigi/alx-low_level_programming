@@ -14,7 +14,7 @@ void print_binary(unsigned long int number)
 			print_binary(number >> 1);
 		_putchar((number & 1) + '0');
 	}
-	else 
+	else
 	{
 		_putchar('0');
 	}
