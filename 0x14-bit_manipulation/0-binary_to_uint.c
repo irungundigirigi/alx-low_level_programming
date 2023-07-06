@@ -11,8 +11,10 @@ unsigned int binary_to_uint(const char *binary)
 	int len, position_value;
 	unsigned int j;
 
-	if (!i)
+	if (!binary)
 		return (0);
+
+	j = 0;
 
 	for (len = 0; binary[len] != '\0'; len++)
 		;
