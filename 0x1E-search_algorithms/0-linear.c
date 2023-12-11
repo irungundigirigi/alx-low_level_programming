@@ -1,4 +1,4 @@
-#include "search_algorithms.h"
+#include "search_algos.h"
 /**
  * linear_search - searches an array for a value and print each value checked
  * @array: pointer to first element in array to search in
@@ -6,8 +6,8 @@
  * @value: value to search for
  * Return: index of matched value in array or -1 if error or not found
  */
-int linear_search(int *array, size_t size, int val) {
-	int i;
+int linear_search(int *array, size_t size, int value) {
+	size_t i;
 
 	if (array == NULL || size == 0)
 		return -1;
